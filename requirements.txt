@@ -1,1 +1,5 @@
-
+  PYTHON DEPENDENCIES
+agentic-framework
+openai
+pydantic
+pytest
