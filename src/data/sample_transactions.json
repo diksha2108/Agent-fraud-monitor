@@ -1,0 +1,182 @@
+[
+  {
+    "id": "TX1001",
+    "account_id": "ACC5001",
+    "amount": 15000.00,
+    "currency": "USD",
+    "location": "foreign_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑11T14:30:00Z"
+  },
+  {
+    "id": "TX1002",
+    "account_id": "ACC5002",
+    "amount": 200.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑11T15:00:00Z"
+  },
+  {
+    "id": "TX1003",
+    "account_id": "ACC5001",
+    "amount": 9500.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑11T15:30:00Z"
+  },
+  {
+    "id": "TX1004",
+    "account_id": "ACC5003",
+    "amount": 30000.00,
+    "currency": "USD",
+    "location": "international_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑11T16:00:00Z"
+  },
+  {
+    "id": "TX1005",
+    "account_id": "ACC5004",
+    "amount": 500.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑11T16:30:00Z"
+  },
+  {
+    "id": "TX1006",
+    "account_id": "ACC5005",
+    "amount": 12000.00,
+    "currency": "USD",
+    "location": "foreign_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T09:15:00Z"
+  },
+  {
+    "id": "TX1007",
+    "account_id": "ACC5006",
+    "amount": 300.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T10:00:00Z"
+  },
+  {
+    "id": "TX1008",
+    "account_id": "ACC5001",
+    "amount": 8000.00,
+    "currency": "USD",
+    "location": "remote_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T10:45:00Z"
+  },
+  {
+    "id": "TX1009",
+    "account_id": "ACC5007",
+    "amount": 45000.00,
+    "currency": "USD",
+    "location": "international_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T11:30:00Z"
+  },
+  {
+    "id": "TX1010",
+    "account_id": "ACC5008",
+    "amount": 75.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T12:00:00Z"
+  },
+  {
+    "id": "TX1011",
+    "account_id": "ACC5009",
+    "amount": 2500.00,
+    "currency": "USD",
+    "location": "regional_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T12:45:00Z"
+  },
+  {
+    "id": "TX1012",
+    "account_id": "ACC5010",
+    "amount": 150.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T13:30:00Z"
+  },
+  {
+    "id": "TX1013",
+    "account_id": "ACC5011",
+    "amount": 11000.00,
+    "currency": "USD",
+    "location": "foreign_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T14:15:00Z"
+  },
+  {
+    "id": "TX1014",
+    "account_id": "ACC5012",
+    "amount": 600.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T15:00:00Z"
+  },
+  {
+    "id": "TX1015",
+    "account_id": "ACC5003",
+    "amount": 22000.00,
+    "currency": "USD",
+    "location": "international_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T15:45:00Z"
+  },
+  {
+    "id": "TX1016",
+    "account_id": "ACC5013",
+    "amount": 980.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑12T16:30:00Z"
+  },
+  {
+    "id": "TX1017",
+    "account_id": "ACC5014",
+    "amount": 14000.00,
+    "currency": "USD",
+    "location": "remote_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑13T09:00:00Z"
+  },
+  {
+    "id": "TX1018",
+    "account_id": "ACC5015",
+    "amount": 300.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑13T09:45:00Z"
+  },
+  {
+    "id": "TX1019",
+    "account_id": "ACC5002",
+    "amount": 12500.00,
+    "currency": "USD",
+    "location": "foreign_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑13T10:30:00Z"
+  },
+  {
+    "id": "TX1020",
+    "account_id": "ACC5016",
+    "amount": 45.00,
+    "currency": "USD",
+    "location": "local_branch",
+    "home_branch": "local_branch",
+    "timestamp": "2025‑11‑13T11:00:00Z"
+  }
+]
