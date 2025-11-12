@@ -48,3 +48,23 @@ This project applies an “agentic” AI architecture—using an autonomous agen
    ```bash
    git clone https://github.com/yourorg/agentic‑fraud‑monitor.git
    cd agentic‑fraud‑monitor
+
+2.  Install dependencies:
+
+pip install ‑r requirements.txt
+
+3. Copy .env.example to .env and add your API key:
+
+OPENAI_API_KEY=your_key_here
+
+Adjust configuration in config.yaml (thresholds, logging, etc).
+
+Configuration
+
+Edit config.yaml:
+
+fraud:
+  score_threshold_freeze: 0.9
+  score_threshold_escalate: 0.75
+logging:
+  level: INFO
