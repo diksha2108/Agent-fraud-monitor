@@ -59,7 +59,8 @@ OPENAI_API_KEY=your_key_here
 
 Adjust configuration in config.yaml (thresholds, logging, etc).
 
-Configuration
+
+## Configuration
 
 Edit config.yaml:
 
@@ -68,6 +69,21 @@ fraud:
   score_threshold_escalate: 0.75
 logging:
   level: INFO
+  Configuration
+
+Edit config.yaml:
+
+fraud:
+  score_threshold_freeze: 0.9
+  score_threshold_escalate: 0.75
+logging:
+  level: INFO
+
+## 🧰 Usage
+
+Run the main script to process sample transactions:
+
+python src/main.py
 
 ##  🏗 Project Structure
 agentic‑fraud‑monitor/
@@ -97,3 +113,35 @@ agentic‑fraud‑monitor/
 └── docker/
     ├── Dockerfile
     └── docker‑compose.yaml
+## 🧪 Development & Testing
+
+Run linting and code‑style checks:
+
+./ci/lint_and_test.sh
+
+
+Run unit tests:
+
+pytest
+
+## 📦 Deployment
+
+Use the docker/Dockerfile and docker/docker‑compose.yaml to build and run in containerised form.
+
+In production, integrate with transaction stream (Kafka, DB), secure secrets (Vault), monitoring/alerting, RBAC for tool actions, audit log retention policies.
+
+## 🤝 Contributing
+
+We welcome contributions!
+
+Fork the repository & create a feature branch (git checkout ‑b feature/YourFeature).
+
+Commit your changes (git commit ‑m "Add …").
+
+Push to fork and open a Pull Request.
+
+Ensure you update/add tests and pass CI.
+
+## 📄 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
