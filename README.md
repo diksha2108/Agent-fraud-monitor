@@ -68,3 +68,32 @@ fraud:
   score_threshold_escalate: 0.75
 logging:
   level: INFO
+
+##  🏗 Project Structure
+agentic‑fraud‑monitor/
+├── README.md
+├── .env.example
+├── requirements.txt
+├── config.yaml
+├── src/
+│   ├── main.py
+│   ├── agents/
+│   │   └── transaction_monitor.py
+│   ├── tools/
+│   │   ├── fraud_scoring_tool.py
+│   │   ├── account_action_tool.py
+│   │   └── audit_log_tool.py
+│   ├── utils/
+│   │   ├── logging_config.py
+│   │   └── helpers.py
+│   └── data/
+│       └── sample_transactions.json
+├── tests/
+│   ├── test_fraud_scoring.py
+│   ├── test_account_action.py
+│   └── test_agent_flow.py
+├── ci/
+│   └── lint_and_test.sh
+└── docker/
+    ├── Dockerfile
+    └── docker‑compose.yaml
